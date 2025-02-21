@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+}
+header {
+    border-top: 2.4px solid #E46F0D;
+    border-bottom: 0.8px solid #dadada;
+    display: flex;
+}
+header img {
+    height: 30px;
+    width: 150px;
+    margin: 12px 0 12px 127.6px;
+}
+header ul {
+    display: flex;
+    gap: 20px;
+    margin: 12px 0 12px 20px;
+    align-items: center; 
+    padding: 0;
+}
+header li {
+    display: inline-block;
+    padding: 0; 
+    margin: 0; 
+}
+header li a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    line-height: 1; 
+    padding: 5px 0; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+.login, .signup, .signupmain {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 13px 10px 13px;
+    border-radius: 5px;
+}
+.login {
+    color: rgb(0, 119, 255);
+    border: 1.5px solid rgb(0, 68, 255);
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.signup {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: 1.5px solid rgb(0, 119, 255);
+    margin-right: 127.6px;
+}
+form a {
+    display: flex;
+    line-height: 1;
+    align-items: center;
+}
+.searchbar {
+    margin-left: 15px;
+    padding: 8px 538px 8px 30px;
+    border: 2px solid rgba(197, 197, 197, 0.616);
+    border-radius: 7px;
+}
+form input::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+aside .side_section {
+    margin-left: 127.6px;
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+}
+aside .side_section .toplist, .midlist, .bottomlist {
+    padding: 0;
+}
+aside .side_section .toplist {
+    margin-top: 25px;
+}
+aside .side_section a {
+    text-decoration: none;
+    color: #636465;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 6px;
+}
+aside .side_section li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+aside .side_section .bottomlist .labs {
+    font-weight: bold;
+}
+aside {
+    display: flex;
+}
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 500px;
+    color: #333;
+    margin: 0;
+    font-size: 35px;
+}
+.highlight {
+    display: inline-block;
+    background: url(images/background-orange.png) no-repeat center;
+    background-size: contain;
+    padding: 5px 10px;
+    color: white; 
+    font-weight: bold;
+    border-radius: 5px; 
+}
+.firstcontent {
+    width: 100%;
+    background-color: rgba(224, 224, 224, 0.267);
+    position: relative;
+    padding: 35px 0 20px 0;
+    border-radius: 7px;
+}
+main {
+    width: 1070px;
+}
+main .insidefirstcontent p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 495px;
+    margin-bottom: 40px;
+}
+.signupmain, .explore {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: 1.5px solid rgb(0, 119, 255);
+}
+.visit {
+    text-decoration: none;
+    margin-left: 15px;
+}
+.firstcontent img {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    height: 250px;
+}
+ .insidefirstcontent {
+    padding-left: 40px;
+    padding-bottom: 20px;
+ }
+ main .paragraph {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+main .insidesecondcontent img {
+    height: 30px;
+    width: 130px;
+    padding: 30px 0 0 30px;
+}
+.forteams {
+    border: 2px solid rgba(211, 211, 211, 0.349);
+    border-radius: 7px;
+    height: 195px;
+    position: relative;
+    width: 100%;
+}
+main .insidesecondcontent p{
+    margin: 10px 0 30px 30px;
+}
+.explore {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    margin: 20px 5px 30px 30px;
+}
+ .forteamsboard img, .apps img, .clipart2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.forteamsboard img {
+    height: 165px;
+}
+.ai {
+    background-color: rgba(56, 56, 56, 0.932);
+    border-radius: 7px;
+    padding-bottom: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.insidethirdcontent {
+    color: white;
+    margin-top: 20px;
+}
+.insidethirdcontent p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    margin: 0 0 30px 30px;
+}
+main .insidethirdcontent img {
+    height: 40px;
+    width: 130px;
+    padding: 25px 0 0 30px;
+}
+.supercharge {
+    background-color: rgb(255, 136, 0);
+}
+.ai .apps img, .careers .clipart2 img {
+    border-bottom-right-radius: 7px;
+}
+.ai .apps img {
+    height: 170px
+}
+main .advertising img, main .API img {
+    height: 30px;
+    width: 130px;
+    padding: 25px 0 0 30px;
+}
+main .advertising {
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    padding-bottom: 30px;
+    width: 525px;
+    border-radius: 7px;
+}
+.advertising p, .API p, .insidesecondcontent p, .careers p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 450px;
+}
+.advertising p{
+    margin: 10px 0 55px 30px;
+}
+.advertise, .careersbutton, .supercharge {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    margin: 20px 5px 30px 30px;
+}
+.advertise, .careersbutton {
+    background-color: rgb(0, 119, 255);
+    border: 1.5px solid rgb(0, 119, 255);
+}
+.build, .tryfree, .visit {
+    color: rgb(0, 119, 255);
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.build, .tryfree {
+    margin-left: 5px;
+}
+.advertising_api {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+main .API {
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    padding-bottom: 30px;
+    width: 525px;
+    border-radius: 7px;
+}
+.API p{
+    margin: 10px 0 35px 30px;
+}
+main .careersatSOF img {
+    height: 25px;
+    width: 125px;
+    padding: 25px 0 0 30px;
+}
+.careers {
+    border: 2px solid rgba(211, 211, 211, 0.349);
+    border-radius: 7px;
+    height: 195px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.careers p{
+    margin: 10px 0 25px 30px;
+}
+.careers .clipart2 img {
+    height: 265px;
+}
